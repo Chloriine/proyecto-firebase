@@ -43,7 +43,7 @@ export default function Index() {
     <View style={GlobalStyles.containerLogin}>
       <Text style= {GlobalStyles.titulo}>Iniciar Sesión</Text>
       <View style={GlobalStyles.containerFormularioLogin}>
-        <TextInput onChangeText={setEmail} value={email} placeholder="Usuario" style={GlobalStyles.textInput} />
+        <TextInput onChangeText={setEmail} value={email} placeholder="Email" style={GlobalStyles.textInput} />
         <TextInput onChangeText={setPassword} value={password} placeholder="Contraseña" style={GlobalStyles.textInput} />
         <View style={GlobalStyles.containerBotonesLogin}>
           <Pressable style={GlobalStyles.boton} onPress={redirigirRegistro}>
